@@ -8,8 +8,8 @@ const NavBar = () => {
         <img src={logo} alt="logo" />
       </div>
 
-      <div className="mr-4">
-        <ul className="flex  gap-2 py-4">
+      <div className="mr-8">
+        <ul className="flex  gap-4 py-4">
           <li>News</li>
           <li>Matches</li>
           <li>Teams</li>
