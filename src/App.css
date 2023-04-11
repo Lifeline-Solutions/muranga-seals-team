@@ -1,4 +1,7 @@
-.hero-background{
+.hero-background {
   background-image: url("./components/images/header-02.png");
- 
+}
+
+.score-bg {
+  background-image: url("./components/images/teamblurbg-02.png");
 }
