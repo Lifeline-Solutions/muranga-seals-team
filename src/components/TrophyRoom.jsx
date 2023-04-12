@@ -7,7 +7,7 @@ const TrophyRoom = () => {
       <div className="flex flex-col p-8  ">
         <p>Visit Our</p>
         <p className="font-bold my-4 text-5xl w-full">Trophy Room</p>
-        <p className="w-[300px]">
+        <p className="w-[400px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
           mollitia, molestiae quas vel sint commodi repudiandae consequuntur
           voluptatum laborum numquam blanditiis harum quisquam eius sed odit
@@ -17,8 +17,8 @@ const TrophyRoom = () => {
           Read More
         </button>
       </div>
-      <img src={trophy} alt="trophy" />
-      <img src={trophy} alt="trophy" />
+      <img src={trophy} alt="trophy" className="w-[500px] h-[500px]" />
+      <img src={trophy} alt="trophy" className="w-[500px] h-[500px]" />
     </div>
   );
 };

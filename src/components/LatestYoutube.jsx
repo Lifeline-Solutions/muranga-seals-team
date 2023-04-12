@@ -9,7 +9,7 @@ const LatestYoutube = () => {
         <h1>See All</h1>
       </div>
       <div className="flex gap-4  mt-12 justify-between">
-        <div className="w-[1/3] flex flex-col">
+        <div className="w-1/3 flex flex-col">
           <img src={sportpesa} alt="sportpesa" className="w-full h-[350px]" />
           <h1 className="font-bold text-2xl my-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
@@ -21,7 +21,7 @@ const LatestYoutube = () => {
             nihil, eveniet aliquid culpa officia
           </p>
         </div>
-        <div className="w-[1/3] flex flex-col">
+        <div className="w-1/3 flex flex-col">
           <img src={sportpesa} alt="sportpesa" className="w-full h-[350px]" />
           <h1 className="font-bold text-2xl my-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
@@ -33,7 +33,7 @@ const LatestYoutube = () => {
             nihil, eveniet aliquid culpa officia
           </p>
         </div>
-        <div className="w-[1/3] flex flex-col">
+        <div className="w-1/3 flex flex-col">
           <img src={sportpesa} alt="sportpesa" className="w-full h-[350px]" />
           <h1 className="font-bold text-2xl my-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime

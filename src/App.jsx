@@ -7,6 +7,7 @@ import MatchScores from "./components/MatchScores";
 import News from "./components/News";
 import TrophyRoom from "./components/TrophyRoom";
 import LatestYoutube from "./components/LatestYoutube";
+import Gallery from "./components/Gallery";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
       <News />
       <TrophyRoom />
       <LatestYoutube />
+      <Gallery />
     </div>
   );
 }
