@@ -6,6 +6,7 @@ import Jerseys from "./components/Jerseys";
 import MatchScores from "./components/MatchScores";
 import News from "./components/News";
 import TrophyRoom from "./components/TrophyRoom";
+import LatestYoutube from "./components/LatestYoutube";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <MatchScores />
       <News />
       <TrophyRoom />
+      <LatestYoutube />
     </div>
   );
 }
