@@ -5,3 +5,8 @@
 .score-bg {
   background-image: url("./components/images/teamblurbg-02.png");
 }
+
+.footer-bg {
+  background-image: url("./components/images/footerbg-02.png");
+  width: 100%;
+}

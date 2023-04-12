@@ -8,6 +8,7 @@ import News from "./components/News";
 import TrophyRoom from "./components/TrophyRoom";
 import LatestYoutube from "./components/LatestYoutube";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
       <TrophyRoom />
       <LatestYoutube />
       <Gallery />
+      <Footer />
     </div>
   );
 }
