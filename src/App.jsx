@@ -20,7 +20,6 @@ function App() {
       <TrophyRoom />
       <LatestYoutube />
       <Gallery />
-      <Footer />
     </div>
   );
 }
