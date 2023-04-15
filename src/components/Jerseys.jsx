@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import jersey1 from "./images/jersey1.png";
 import jersey2 from "./images/jersey2.png";
 import jersey3 from "./images/jersey3.png";
 import { ToastContainer, toast } from "react-toastify";
-
+import emailjs from "@emailjs/browser";
 import "react-toastify/dist/ReactToastify.css";
 
 const Jerseys = () => {
@@ -12,6 +12,8 @@ const Jerseys = () => {
   const [number, setNumber] = useState("");
   const [size, setSize] = useState("");
   const [color, setColor] = useState("");
+  const form = useRef();
+
   const handleSubmit = (e) => {
     e.preventDefault();
     if (name !== "" && number !== "" && size !== "" && color !== "") {
@@ -28,8 +30,27 @@ const Jerseys = () => {
           theme: "light",
         }
       );
+      emailjs
+        .sendForm(
+          "service_8nuxsw3",
+          "template_o7408va",
+          form.current,
+          "6M-rV1iiaVqa5DANh"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
       setTimeout(() => {
         setShowModal(false);
+        setColor("");
+        setName("");
+        setNumber("");
+        setSize("");
       }, 5000);
     } else {
       toast.error("Please fill all the fields", {
@@ -57,7 +78,11 @@ const Jerseys = () => {
               X
             </button>
           </div>
-          <form className="space-y-4 md:space-y-6" onSubmit={handleSubmit}>
+          <form
+            ref={form}
+            className="space-y-4 md:space-y-6"
+            onSubmit={handleSubmit}
+          >
             <img src={jersey1} alt="jersey" className="w-96 h-96 mx-auto" />
             <div className="flex gap-4 my-4">
               <div className="flex flex-col gap-4">
@@ -76,7 +101,7 @@ const Jerseys = () => {
                 <label htmlFor="number">Your phone number</label>
                 <input
                   type="text"
-                  name="number"
+                  name="contact"
                   onChange={(e) => setNumber(e.target.value)}
                   value={number}
                   id="number"
@@ -93,6 +118,7 @@ const Jerseys = () => {
                   className="w-[250px] border border-gray-300 rounded-lg py-2.5 px-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-600"
                   onChange={(e) => setSize(e.target.value)}
                   value={size}
+                  name="size"
                 >
                   <option value=" ">Select Size</option>
                   <option value="Small">Small</option>
@@ -107,6 +133,7 @@ const Jerseys = () => {
                   className="w-[250px] border border-gray-300 rounded-lg py-2.5 px-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-600"
                   onChange={(e) => setColor(e.target.value)}
                   value={color}
+                  name="color"
                 >
                   <option value=" ">Select Color</option>
                   <option value="Red">Red</option>
