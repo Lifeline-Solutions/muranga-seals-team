@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="absolute top-[70px]  uppercase text-white right-[10px]">
-        <p className="text-start font-bold text-[150px]">Muranga</p>
+        <p className="text-start font-bold text-[150px]">Murang&#39;a</p>
 
         <p
           className="text-end font-bold text-9xl"
