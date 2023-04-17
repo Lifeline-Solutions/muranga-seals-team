@@ -24,7 +24,7 @@ const News = () => {
             <p>March/2021/</p>
           </div>
           <h1>Wazito FC 1-0</h1>
-          <h1>Murang'a Seal FC</h1>
+          <h1>Murang&#39;a Seal FC</h1>
           <h1 className="text-gray-500 text-[30px] font-medium">
             A penalty for Wazito FC
           </h1>
