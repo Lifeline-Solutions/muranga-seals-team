@@ -32,10 +32,10 @@ const Jerseys = () => {
       );
       emailjs
         .sendForm(
-          "service_8nuxsw3",
-          "template_o7408va",
+          "service_h7l8hup",
+          "template_13744me",
           form.current,
-          "6M-rV1iiaVqa5DANh"
+          "d7b_3OQfip7DSHKsX"
         )
         .then(
           (result) => {
@@ -128,17 +128,17 @@ const Jerseys = () => {
                 </select>
               </div>
               <div className="flex flex-col gap-4">
-                <label htmlFor="name">Select Color</label>
+                <label htmlFor="name">Select Kir</label>
                 <select
                   className="w-[250px] border border-gray-300 rounded-lg py-2.5 px-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-600"
                   onChange={(e) => setColor(e.target.value)}
                   value={color}
                   name="color"
                 >
-                  <option value=" ">Select Color</option>
-                  <option value="Red">Red</option>
-                  <option value="Blue">Blue</option>
-                  <option value="Green">Green</option>
+                  <option value=" ">Select Kit</option>
+                  <option value="Home">Home</option>
+                  <option value="Away">Away</option>
+                  <option value="Third Kit">Third Kit</option>
                 </select>
               </div>
             </div>
