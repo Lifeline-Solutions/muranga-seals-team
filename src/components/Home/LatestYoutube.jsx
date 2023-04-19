@@ -1,5 +1,5 @@
 import React from "react";
-import sportpesa from "./images/sportpesa.jpeg";
+import sportpesa from "../images/sportpesa.jpeg";
 const LatestYoutube = () => {
   return (
     <div className="w-[90%] mt-12 mx-auto">

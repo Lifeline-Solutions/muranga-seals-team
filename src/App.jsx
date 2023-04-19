@@ -1,26 +1,22 @@
 import React from "react";
 import "./App.css";
-import NavBar from "./components/NavBar";
-import Hero from "./components/Hero";
-import Jerseys from "./components/Jerseys";
-import MatchScores from "./components/MatchScores";
-import News from "./components/News";
-import TrophyRoom from "./components/TrophyRoom";
-import LatestYoutube from "./components/LatestYoutube";
-import Gallery from "./components/Gallery";
-import Footer from "./components/Footer";
+import Home from "./components/Home";
+import NewsPage from "./components/NewsPage";
+import { Route, Routes } from "react-router-dom";
+import Matches from "./components/Matches";
+import Team from "./components/Team";
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Hero />
-      <Jerseys />
-      <MatchScores />
-      <News />
-      <TrophyRoom />
-      <LatestYoutube />
-      <Gallery />
-        <Footer />
+        <Routes>
+            <Route path="/" element={ <Home />} />
+            <Route index element={<Home />} />
+            <Route path="news" element={<NewsPage />} />
+            <Route path="matches" element={<Matches />} />
+            <Route path="teams" element={<Team />} />
+
+        </Routes>
+
     </div>
   );
 }

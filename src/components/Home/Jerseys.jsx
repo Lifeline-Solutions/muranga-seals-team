@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
-import jersey1 from "./images/jersey1.png";
-import jersey2 from "./images/jersey2.png";
-import jersey3 from "./images/jersey3.png";
+import jersey1 from "../images/jersey1.png";
+import jersey2 from "../images/jersey2.png";
+import jersey3 from "../images/jersey3.png";
 import { ToastContainer, toast } from "react-toastify";
 import emailjs from "@emailjs/browser";
 import "react-toastify/dist/ReactToastify.css";
