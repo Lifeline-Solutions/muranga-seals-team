@@ -1,5 +1,5 @@
 import React from "react";
-import footerside1 from "./images/footerside-02.png";
+import footerside1 from "../images/footerside-02.png";
 const Footer = () => {
   return (
     <div className="footer-bg bg-cover flex items-center text-white p-8  gap-2 bg-center  h-[100vh]">

@@ -1,5 +1,5 @@
 import React from "react";
-import celebrating from "./images/celebrating.jpeg";
+import celebrating from "../images/celebrating.jpeg";
 const News = () => {
   return (
     <div>

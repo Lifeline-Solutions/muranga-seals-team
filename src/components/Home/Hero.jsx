@@ -1,6 +1,6 @@
 import React from "react";
-import header2 from "./images/header-02.png";
-import person2 from "./images/person-02.png";
+import header2 from "../images/header-02.png";
+import person2 from "../images/person-02.png";
 const Hero = () => {
   return (
     <div>

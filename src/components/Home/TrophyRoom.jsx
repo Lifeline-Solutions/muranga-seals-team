@@ -1,5 +1,5 @@
 import React from "react";
-import trophy from "./images/trophy.png";
+import trophy from "../images/trophy.png";
 
 const TrophyRoom = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import celebrating from "./images/celebrating.jpeg";
-import sportpesalogo from "./images/sportpesalogo.png";
+import celebrating from "../images/celebrating.jpeg";
+import sportpesalogo from "../images/sportpesalogo.png";
 const Gallery = () => {
   return (
     <div className="w-[90%] mx-auto mt-24">

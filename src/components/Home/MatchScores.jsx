@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./images/logo.png";
+import logo from "../images/logo.png";
 const MatchScores = () => {
   return (
     <div className="h-[100vh] bg-cover bg-center   score-bg flex flex-col justify-center">
