@@ -3,12 +3,10 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import NewsPage from "./components/NewsPage";
-import Matches from "./components/Matches";
 import Team from "./components/Team";
 import Ticket from "./components/Ticket";
 import Membership from "./components/Membership";
 import TheClub from "./components/TheClub";
-import History from "./components/History";
 function App() {
   return (
     <div className="App">
