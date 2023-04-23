@@ -15,9 +15,6 @@ const NavBar = () => {
             <NavLink exact="true" to="/news">
                 <li className="hover:scale-105 cursor-pointer transition-all duration-300 hover:text-[#E06F24]">News</li>
             </NavLink>
-            <NavLink exact="true" to="/matches">
-                <li className="hover:scale-105  cursor-pointer transition-all duration-300 hover:text-[#E06F24]">Matches</li>
-            </NavLink>
             <NavLink exact="true" to="/teams">
                 <li className="hover:scale-105 cursor-pointer  transition-all duration-300 hover:text-[#E06F24]">Teams</li>
             </NavLink>
@@ -29,9 +26,6 @@ const NavBar = () => {
             </NavLink>
             <NavLink exact="true" to="/theclub">
                 <li className="hover:scale-105  cursor-pointer transition-all duration-300 hover:text-[#E06F24]">The club</li>
-            </NavLink>
-            <NavLink exact="true" to="/history">
-                <li className="hover:scale-105  cursor-pointer transition-all duration-300 hover:text-[#E06F24]">History</li>
             </NavLink>
         </ul>
       </div>
