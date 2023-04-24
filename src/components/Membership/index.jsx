@@ -1,9 +1,7 @@
 import React from "react";
 const Membership = () => {
   return (
-    <> 
-         
-          
+    <>
       <div className="h-[200px] bg-black text-white text-7xl p-8 font-bold">
         Ticket
       </div>
@@ -86,7 +84,7 @@ const Membership = () => {
           </p>
         </div>
 
-        <button className="bg-yellow-400 w-[50%] mx-auto text-white text-3xl p-4 mt-12 font-bold">
+        <button className="bg-[#F4E721] w-[50%] mx-auto text-white text-3xl p-4 mt-12 font-bold">
           Register
         </button>
       </div>

@@ -3,8 +3,7 @@ import teamphoto from "../images/team-photo.jpeg";
 const TheClub = () => {
   return (
     <>
-     
-      <div className="h-[200px] bg-black text-white text-7xl p-8 font-bold">
+      <div className="h-[200px] bg-black/90 text-white text-7xl p-8 font-bold">
         Our Club
       </div>
 
@@ -15,7 +14,7 @@ const TheClub = () => {
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
 
-          <button className="w-[40%] bg-yellow-400 p-4 text-3xl ">
+          <button className="w-[40%] bg-[#F4E721] p-4 text-3xl ">
             Read More
           </button>
         </div>
@@ -35,7 +34,7 @@ const TheClub = () => {
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
 
-          <button className="w-[40%] bg-yellow-400 p-4 text-3xl ">
+          <button className="w-[40%] bg-[#F4E721] p-4 text-3xl ">
             Read More
           </button>
         </div>
@@ -48,7 +47,7 @@ const TheClub = () => {
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
 
-          <button className="w-[40%] bg-yellow-400 p-4 text-3xl ">
+          <button className="w-[40%] bg-[#F4E721] p-4 text-3xl ">
             Read More
           </button>
         </div>
@@ -68,7 +67,7 @@ const TheClub = () => {
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
 
-          <button className="w-[40%] bg-yellow-400 p-4 text-3xl ">
+          <button className="w-[40%] bg-[#F4E721] p-4 text-3xl ">
             Read More
           </button>
         </div>
@@ -81,7 +80,7 @@ const TheClub = () => {
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
 
-          <button className="w-[40%] bg-yellow-400 p-4 text-3xl ">
+          <button className="w-[40%] bg-[#F4E721] p-4 text-3xl ">
             Read More
           </button>
         </div>

@@ -211,10 +211,10 @@ const Jerseys = () => {
       </div>
 
       <div className="flex mt-12">
-        <p className="w-1/2  p-4 text-end  bg-[#F4E721] text-white pr-16 text-2xl  ">
+        <p className="w-1/2  p-4 text-end  bg-[#F4E721] font-bold pr-16 text-2xl  ">
           Breaking News
         </p>
-        <p className="w-1/2 bg-gray-200 p-4 text-start  pl-16 text-2xl ">
+        <p className="w-1/2 bg-gray-200 p-4 text-start font-bold  pl-16 text-2xl ">
           Latest News
         </p>
       </div>

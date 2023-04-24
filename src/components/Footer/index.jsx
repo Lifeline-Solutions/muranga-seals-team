@@ -1,7 +1,7 @@
 import React from "react";
 import teamphoto from "../images/team-photo.jpeg";
 import { BsTwitter, BsFacebook, BsInstagram, BsYoutube } from "react-icons/bs";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="footer-bg bg-cover    p-8  gap-2 bg-center  ">
@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
         <div className="flex justify-between">
           <div className="flex flex-col gap-2 text-white">
-            <h1 className="text-yellow-300 font-bold text-2xl">News</h1>
+            <h1 className="text-[#F4E721] font-bold text-2xl">News</h1>
             <p>Lorem</p>
             <p>Lorem</p>
             <p>Lorem</p>
@@ -22,7 +22,7 @@ const Footer = () => {
             <p>Lorem</p>
           </div>
           <div className="flex flex-col gap-2 text-white">
-            <h1 className="text-yellow-300 font-bold text-2xl">News</h1>
+            <h1 className="text-[#F4E721] font-bold text-2xl">News</h1>
             <p>Lorem</p>
             <p>Lorem</p>
             <p>Lorem</p>
@@ -30,7 +30,7 @@ const Footer = () => {
             <p>Lorem</p>
           </div>
           <div className="flex flex-col gap-2 text-white">
-            <h1 className="text-yellow-300 font-bold text-2xl">News</h1>
+            <h1 className="text-[#F4E721] font-bold text-2xl">News</h1>
             <p>Lorem</p>
             <p>Lorem</p>
             <p>Lorem</p>
@@ -39,7 +39,7 @@ const Footer = () => {
             <p>Lorem</p>
           </div>
           <div className="flex flex-col gap-2 text-white">
-            <h1 className="text-yellow-300 font-bold text-2xl">News</h1>
+            <h1 className="text-[#F4E721] font-bold text-2xl">News</h1>
             <p>Lorem</p>
             <p>Lorem</p>
             <p>Lorem</p>
@@ -47,7 +47,7 @@ const Footer = () => {
             <p>Lorem</p>
           </div>
           <div className="flex flex-col gap-2 text-white">
-            <h1 className="text-yellow-300 font-bold text-2xl">News</h1>
+            <h1 className="text-[#F4E721] font-bold text-2xl">News</h1>
             <p>Lorem</p>
             <p>Lorem</p>
             <p>Lorem</p>
@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex justify-between items-center w-[70%] mx-auto text-yellow-300">
+        <div className="flex justify-between items-center w-[80%] mx-auto text-[#F4E721]">
           <h1 className="text-7xl font-bold">Sportpesa</h1>
           <div className="flex gap-8 text-2xl">
             <Link to="/news">
@@ -87,8 +87,9 @@ const Footer = () => {
             <Link to="/membership">
               <h1>Membership</h1>
             </Link>
-            <Link to="/theclub">
-              <h1>Our Club</h1>
+            <Link to="/theclub" className="flex gap-1">
+              <h1>The </h1>
+              <h1>Club</h1>
             </Link>
           </div>
         </div>

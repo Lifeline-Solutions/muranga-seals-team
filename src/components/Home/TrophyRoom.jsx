@@ -3,7 +3,7 @@ import trophy from "../images/trophy.png";
 
 const TrophyRoom = () => {
   return (
-    <div className="flex p-8  bg-orange-100">
+    <div className="flex p-8  justify-between bg-[#F6F6F6]">
       <div className="flex flex-col p-8  ">
         <p>Visit Our</p>
         <p className="font-bold my-4 text-5xl w-full">Trophy Room</p>
@@ -13,12 +13,12 @@ const TrophyRoom = () => {
           voluptatum laborum numquam blanditiis harum quisquam eius sed odit
           fugiat iusto fuga praesentium optio, eaque rerum!
         </p>
-        <button className="bg-orange-400 text-xl text-white py-4 w-[200px]  mt-16 px-2">
+        <button className="bg-[#F4E721] text-xl font-bold py-4 w-[200px]  mt-16 px-2">
           Read More
         </button>
       </div>
-      <img src={trophy} alt="trophy" className="w-[500px] h-[500px]" />
-      <img src={trophy} alt="trophy" className="w-[500px] h-[500px]" />
+      <img src={trophy} alt="trophy" className="w-[300px] h-[400px]" />
+      <img src={trophy} alt="trophy" className="w-[300px] h-[400px]" />
     </div>
   );
 };

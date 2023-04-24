@@ -4,9 +4,8 @@ import player from "../images/player.jpeg";
 const Team = () => {
   return (
     <>
-    
-      <div className="h-[200px] bg-black text-white text-7xl p-8 font-bold">
-        Ticket
+      <div className="h-[200px] bg-black/90 text-white text-7xl p-8 font-bold">
+        Teams
       </div>
 
       <div className="p-8">
@@ -22,7 +21,7 @@ const Team = () => {
               <h1>Chris</h1>
               <h1>Achinga</h1>
             </div>
-            <h1>21</h1>
+            <h1 className="text-gray-400 text-5xl">21</h1>
           </div>
         </div>
         <div className="w-[300px] flex-flex-col">
