@@ -1,5 +1,7 @@
 import React from "react";
 import player from "../images/player.jpeg";
+import Centric from "../images/centric.jpeg";
+import Semo from "../images/semo.jpeg";
 
 const Defenders = () => {
     return(
@@ -11,7 +13,27 @@ const Defenders = () => {
 
             <div className="grid grid-cols-4 gap-8 p-8">
                 <div className="w-[300px] flex-flex-col">
-                    <img src={player} alt="player" />
+                    <img src={Semo} alt="player" />
+                    <div className="flex justify-between">
+                        <div className="flex flex-col">
+                            <h1>Samuel</h1>
+                            <h1>Semo</h1>
+                        </div>
+                        <h1 className="text-gray-400 text-5xl">22</h1>
+                    </div>
+                </div>
+                <div className="w-[300px] flex-flex-col">
+                    <img src={Centric} alt="player" />
+                    <div className="flex justify-between">
+                        <div className="flex flex-col">
+                            <h1>Centric</h1>
+                            <h1>Asango</h1>
+                        </div>
+                        <h1 className="text-gray-400 text-5xl">21</h1>
+                    </div>
+                </div>
+                <div className="w-[300px] flex-flex-col">
+                    <img src={ Centric } alt="player" />
                     <div className="flex justify-between">
                         <div className="flex flex-col">
                             <h1>Chris</h1>
@@ -21,27 +43,7 @@ const Defenders = () => {
                     </div>
                 </div>
                 <div className="w-[300px] flex-flex-col">
-                    <img src={player} alt="player" />
-                    <div className="flex justify-between">
-                        <div className="flex flex-col">
-                            <h1>Chris</h1>
-                            <h1>Achinga</h1>
-                        </div>
-                        <h1 className="text-gray-400 text-5xl">21</h1>
-                    </div>
-                </div>
-                <div className="w-[300px] flex-flex-col">
-                    <img src={player} alt="player" />
-                    <div className="flex justify-between">
-                        <div className="flex flex-col">
-                            <h1>Chris</h1>
-                            <h1>Achinga</h1>
-                        </div>
-                        <h1 className="text-gray-400 text-5xl">21</h1>
-                    </div>
-                </div>
-                <div className="w-[300px] flex-flex-col">
-                    <img src={player} alt="player" />
+                    <img src={Semo} alt="player" />
                     <div className="flex justify-between">
                         <div className="flex flex-col">
                             <h1>Chris</h1>
