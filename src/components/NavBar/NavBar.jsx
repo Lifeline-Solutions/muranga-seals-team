@@ -12,7 +12,7 @@ const NavBar = () => {
       <div className="flex justify-around font-bold items-center p-2 bg-[#F4E721]">
         <div className="mb-2">
           <Link to="/">
-            <img src={logo} alt="logo" className="w-[110px] h-[110px]" />
+            <img src={logo} alt="logo" className="w-[200px]" />
           </Link>
         </div>
         <div className="mr-8 text-xl">

@@ -63,7 +63,7 @@ const MatchScores = () => {
               <img src={logo} alt="logo" className="w-12 h-12" />
               <div className="flex flex-col ">
                 <p className="text-2xl flex font-bold uppercase">
-                  <span>Murang'a</span>
+                  <span>Murang&apos;a</span>
                   <span className="ml-2">Seals</span>
                 </p>
                 <p>Murang&#39;a</p>
@@ -77,7 +77,7 @@ const MatchScores = () => {
               <img src={logo} alt="logo" className="w-12 h-12" />
               <div className="flex flex-col ">
                 <p className="text-2xl flex font-bold uppercase">
-                  <span>Murang'a</span>
+                  <span>Murang&apos;a</span>
                   <span className="ml-2">Seals</span>
                 </p>
                 <p>Murang&#39;a</p>
@@ -94,7 +94,7 @@ const MatchScores = () => {
               <img src={logo} alt="logo" className="w-12 h-12" />
               <div className="flex flex-col ">
                 <p className="text-2xl flex font-bold uppercase">
-                  <span>Murang'a</span>
+                  <span>Murang&apos;a</span>
                   <span className="ml-2">Seals</span>
                 </p>
                 <p>Murang&#39;a</p>
@@ -108,7 +108,7 @@ const MatchScores = () => {
               <img src={logo} alt="logo" className="w-12 h-12" />
               <div className="flex flex-col ">
                 <p className="text-2xl flex font-bold uppercase">
-                  <span>Murang'a</span>
+                  <span>Murang&apos;a</span>
                   <span className="ml-2">Seals</span>
                 </p>
                 <p>Murang&#39;a</p>
