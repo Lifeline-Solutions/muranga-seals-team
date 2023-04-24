@@ -1,6 +1,12 @@
 import React from "react";
 import celebrating from "../images/celebrating.jpeg";
 import sportpesalogo from "../images/sportpesalogo.png";
+import gallery1 from "../images/gallery1-02.png";
+import gallery2 from "../images/gallery2-02.png";
+import gallery3 from "../images/gallery3-02.png";
+import gallery4 from "../images/gallery4-02.png";
+import gallery6 from "../images/gallery6-02.png";
+
 const Gallery = () => {
   return (
     <div className="w-[90%] mx-auto mt-24">
@@ -10,26 +16,26 @@ const Gallery = () => {
       </div>
       <div className="flex gap-4 mt-12">
         <div className="w-3/5 flex flex-col h-[500px] ">
-          <img src={celebrating} alt="celebrating" className="h-[290px]" />
+          <img src={gallery1} alt="celebrating" className="h-[290px]" />
           <div className="flex gap-2 justify-between my-2 items-center">
             <img
-              src={celebrating}
+              src={gallery2}
               alt="celebrating"
               className="w-[420px] h-[200px]"
             />
             <img
-              src={celebrating}
+              src={gallery3}
               alt="celebrating"
               className="w-[420px] h-[200px]"
             />
           </div>
         </div>
         <div className="w-1/5 h-[500px] ">
-          <img src={celebrating} alt="celebrating" className=" h-[500px]" />
+          <img src={gallery3} alt="celebrating" className=" h-[500px]" />
         </div>
         <div className="w-1/5 h-[500px] flex justify-between flex-col gap-2 ">
-          <img src={celebrating} alt="celebrating" className="h-[245px]" />
-          <img src={celebrating} alt="celebrating" className="h-[245px]" />
+          <img src={gallery4} alt="gallery4" className="h-[245px]" />
+          <img src={gallery4} alt="celebrating" className="h-[245px]" />
         </div>
       </div>
 
@@ -42,10 +48,22 @@ const Gallery = () => {
         molestias architecto voluptate aliquam nihil, eveniet aliquid culpa
       </h1>
 
-      <div className="flex gap-8 justify-center mt-12">
-        <img src={sportpesalogo} alt="sportpesalogo" className="w-[300px] h-[300px]" />
-        <img src={sportpesalogo} alt="sportpesalogo" className="w-[300px] h-[300px]" />
-        <img src={sportpesalogo} alt="sportpesalogo" className="w-[300px] h-[300px]" />
+      <div className="flex gap-8  justify-center mt-12">
+        <img
+          src={sportpesalogo}
+          alt="sportpesalogo"
+          className="w-[250px] h-[100px]"
+        />
+        <img
+          src={sportpesalogo}
+          alt="sportpesalogo"
+          className="w-[250px] h-[100px]"
+        />
+        <img
+          src={sportpesalogo}
+          alt="sportpesalogo"
+          className="w-[250px] h-[100px]"
+        />
       </div>
     </div>
   );
