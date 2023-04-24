@@ -1,11 +1,9 @@
 import React from "react";
-import celebrating from "../images/celebrating.jpeg";
 import sportpesalogo from "../images/sportpesalogo.png";
 import gallery1 from "../images/gallery1-02.png";
 import gallery2 from "../images/gallery2-02.png";
 import gallery3 from "../images/gallery3-02.png";
 import gallery4 from "../images/gallery4-02.png";
-import gallery6 from "../images/gallery6-02.png";
 
 const Gallery = () => {
   return (

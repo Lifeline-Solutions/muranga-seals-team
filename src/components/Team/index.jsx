@@ -1,8 +1,7 @@
 import React from "react";
-import player from "../images/player.jpeg";
 import Defenders from "./Defenders.jsx";
-import Goalkepper from "./Goalkepper.jsx";
-import Midfilder from "./Midfielder.jsx";
+import Goalkeeper from "./Goalkeeper.jsx";
+import Midfielder from "./Midfielder.jsx";
 import Forwards from "./Forwards.jsx";
 import Coaches from "./Coaches.jsx";
 
@@ -12,9 +11,9 @@ const Team = () => {
       <div className="h-[200px] bg-black/90 text-white text-7xl p-8 font-bold">
         Teams
       </div>
-      <Goalkepper />
+      <Goalkeeper />
       <Defenders />
-      <Midfilder />
+      <Midfielder />
       <Forwards />
      <Coaches />
     </>

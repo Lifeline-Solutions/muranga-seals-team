@@ -1,7 +1,7 @@
 import React from "react";
 import Centric from "../images/centric.jpeg";
 
-const Goalkepper = () => {
+const Goalkeeper = () => {
     return(
         <>
             <div className="p-8">
@@ -35,4 +35,4 @@ const Goalkepper = () => {
     );
 }
 
-export default Goalkepper;
+export default Goalkeeper;

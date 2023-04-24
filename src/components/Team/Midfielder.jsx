@@ -1,5 +1,4 @@
 import React from "react";
-import player from "../images/player.jpeg";
 import Centric from "../images/centric.jpeg";
 import Semo from "../images/semo.jpeg";
 
