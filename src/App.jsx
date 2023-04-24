@@ -7,19 +7,23 @@ import Team from "./components/Team";
 import Ticket from "./components/Ticket";
 import Membership from "./components/Membership";
 import TheClub from "./components/TheClub";
+import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-        <Routes>
-            <Route path="/" element={ <Home />} />
-            <Route index element={<Home />} />
-            <Route path="news" element={<NewsPage />} />
-            <Route path="teams" element={<Team />} />
-            <Route path="ticket" element={<Ticket />} />
-            <Route path="membership" element={<Membership />} />
-            <Route path="theclub" element={<TheClub />} />
-        </Routes>
+      <NavBar />
 
+      <Routes>
+        <Route path="/" element={<Home />} />
+
+        <Route path="news" element={<NewsPage />} />
+        <Route path="teams" element={<Team />} />
+        <Route path="ticket" element={<Ticket />} />
+        <Route path="membership" element={<Membership />} />
+        <Route path="theclub" element={<TheClub />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }

@@ -3,7 +3,8 @@ import celebrating from "../images/celebrating.jpeg";
 const News = () => {
   return (
     <div>
-      <div className="flex gap-0 my-12 ml-12 flex-col ">
+      <div className="flex gap-0 mt-20 ml-12 flex-col ">
+        vbnm
         <h1 className="text-[100px] font-bold text-[#2C0E10] ">NEWS</h1>
         <p
           className=" border-[#E06F24] w-[350px] "

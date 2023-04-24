@@ -42,8 +42,10 @@ const Gallery = () => {
         molestias architecto voluptate aliquam nihil, eveniet aliquid culpa
       </h1>
 
-      <div className="flex justify-center mt-12">
-        <img src={sportpesalogo} alt="sportpesalogo" className="w-[200px]" />
+      <div className="flex gap-8 justify-center mt-12">
+        <img src={sportpesalogo} alt="sportpesalogo" className="w-[300px] h-[300px]" />
+        <img src={sportpesalogo} alt="sportpesalogo" className="w-[300px] h-[300px]" />
+        <img src={sportpesalogo} alt="sportpesalogo" className="w-[300px] h-[300px]" />
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import NavBar from "../NavBar/NavBar.jsx";
 const Matches = () => {
     return (
         <>
-            <NavBar />
+          
             <h1>Matches</h1>
         </>
     )
