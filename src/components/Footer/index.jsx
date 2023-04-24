@@ -1,6 +1,7 @@
 import React from "react";
 import teamphoto from "../images/team-photo.jpeg";
 import { BsTwitter, BsFacebook, BsInstagram, BsYoutube } from "react-icons/bs";
+import {Link} from "react-router-dom";
 const Footer = () => {
   return (
     <div className="footer-bg bg-cover    p-8  gap-2 bg-center  ">
@@ -74,11 +75,21 @@ const Footer = () => {
         <div className="flex justify-between items-center w-[70%] mx-auto text-yellow-300">
           <h1 className="text-7xl font-bold">Sportpesa</h1>
           <div className="flex gap-8 text-2xl">
-            <h1>News</h1>
-            <h1>News</h1>
-            <h1>News</h1>
-            <h1>News</h1>
-            <h1>News</h1>
+            <Link to="/news">
+              <h1>News</h1>
+            </Link>
+            <Link to="/teams">
+              <h1>Team</h1>
+            </Link>
+            <Link to="/ticket">
+              <h1>Tickets</h1>
+            </Link>
+            <Link to="/membership">
+              <h1>Membership</h1>
+            </Link>
+            <Link to="/theclub">
+              <h1>Our Club</h1>
+            </Link>
           </div>
         </div>
       </div>
