@@ -15,8 +15,8 @@ const Hero = () => {
         <h1
           className=" p-4 font-bold text-white"
           style={{
-            fontWeight: "700",
-            fontSize: "10rem",
+            fontWeight: "600",
+            fontSize: "8rem",
           }}
         >
           LET&apos;S GO
