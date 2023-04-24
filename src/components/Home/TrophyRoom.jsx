@@ -17,8 +17,8 @@ const TrophyRoom = () => {
           Read More
         </button>
       </div>
-      <img src={trophy} alt="trophy" className="w-[300px] h-[400px]" />
-      <img src={trophy} alt="trophy" className="w-[300px] h-[400px]" />
+      <img src={trophy} alt="trophy" className="w-[250px] h-[300px]" />
+      <img src={trophy} alt="trophy" className="w-[250px] h-[300px]" />
     </div>
   );
 };

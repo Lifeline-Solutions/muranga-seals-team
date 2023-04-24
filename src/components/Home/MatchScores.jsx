@@ -4,7 +4,7 @@ const MatchScores = () => {
   return (
     <div className="h-[120vh] bg-cover bg-center   score-bg flex flex-col justify-center">
       <div className="flex items-start pt-24">
-        <div className="w-[80%] mx-auto h-[400px] bg-[#F4E721]/60   flex justify-center items-center">
+        <div className="w-[80%] mx-auto h-[200px] bg-[#F4E721]/60   flex justify-center items-center">
           <div className="flex gap-40 ">
             <div className="flex gap-2 text-xl">
               <img src={logo} alt="logo" className="w-32 h-32" />
@@ -15,7 +15,7 @@ const MatchScores = () => {
                 <p>Murang&#39;a</p>
               </div>
             </div>
-            <div className="bg-black h-[120px] text-center rounded-3xl  text-white text-5xl flex items-center justify-center">
+            <div className="bg-black h-[80px] text-center rounded-3xl  text-white text-5xl flex items-center justify-center">
               <p className="py-4 px-8 w-[200px] ">3 - 2</p>
             </div>
 
@@ -56,14 +56,15 @@ const MatchScores = () => {
         <div className="mr-32 text-2xl cursor-pointer">See All</div>
       </div>
 
-      <div className="flex items-start ">
-        <div className="w-[80%] mx-auto h-[120px] mt-12 p-4  bg-white flex justify-center items-center">
+      <div className="flex items-center ">
+        <div className="w-[90%] mx-auto h-[120px] mt-12 p-4  bg-white flex justify-center items-center">
           <div className="flex gap-40 ">
             <div className="flex gap-2 text-xl mt-8">
-              <img src={logo} alt="logo" className="w-16 h-16" />
+              <img src={logo} alt="logo" className="w-12 h-12" />
               <div className="flex flex-col ">
-                <p className="text-2xl font-bold uppercase">
-                  Murang&#39;a Seals
+                <p className="text-2xl flex font-bold uppercase">
+                  <span>Murang'a</span>
+                  <span className="ml-2">Seals</span>
                 </p>
                 <p>Murang&#39;a</p>
               </div>
@@ -73,10 +74,11 @@ const MatchScores = () => {
             </div>
 
             <div className="flex gap-2 text-xl mt-8">
-              <img src={logo} alt="logo" className="w-16 h-16" />
+              <img src={logo} alt="logo" className="w-12 h-12" />
               <div className="flex flex-col ">
-                <p className="text-2xl font-bold uppercase">
-                  Murang&#39;a Seals
+                <p className="text-2xl flex font-bold uppercase">
+                  <span>Murang'a</span>
+                  <span className="ml-2">Seals</span>
                 </p>
                 <p>Murang&#39;a</p>
               </div>
@@ -85,27 +87,29 @@ const MatchScores = () => {
         </div>
       </div>
 
-      <div className="flex items-start ">
-        <div className="w-[80%] mx-auto h-[120px] mt-12 p-4  bg-white flex justify-center items-center">
+      <div className="flex items-center ">
+        <div className="w-[90%] mx-auto h-[120px] mt-12 p-4  bg-white flex justify-center items-center">
           <div className="flex gap-40 ">
-            <div className="flex gap-2 text-xl p-4 mt-8">
-              <img src={logo} alt="logo" className="w-16 h-16" />
+            <div className="flex gap-2 text-xl mt-8">
+              <img src={logo} alt="logo" className="w-12 h-12" />
               <div className="flex flex-col ">
-                <p className="text-2xl font-bold uppercase">
-                  Murang&#39;a Seals
+                <p className="text-2xl flex font-bold uppercase">
+                  <span>Murang'a</span>
+                  <span className="ml-2">Seals</span>
                 </p>
-                <p>Muranga</p>
+                <p>Murang&#39;a</p>
               </div>
             </div>
             <div className="bg-black h-[60px] mt-8 text-center rounded-3xl  text-white text-5xl flex items-center justify-center">
               <p className="py-4 px-8 w-[200px] ">3 - 2</p>
             </div>
 
-            <div className="flex gap-2 text-xl p-4 mt-8">
-              <img src={logo} alt="logo" className="w-16 h-16" />
+            <div className="flex gap-2 text-xl mt-8">
+              <img src={logo} alt="logo" className="w-12 h-12" />
               <div className="flex flex-col ">
-                <p className="text-2xl font-bold uppercase">
-                  Murang&#39;a Seals
+                <p className="text-2xl flex font-bold uppercase">
+                  <span>Murang'a</span>
+                  <span className="ml-2">Seals</span>
                 </p>
                 <p>Murang&#39;a</p>
               </div>

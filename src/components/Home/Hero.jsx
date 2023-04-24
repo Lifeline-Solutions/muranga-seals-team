@@ -9,21 +9,21 @@ const Hero = () => {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
-      className="h-[100vh]  "
+      className="h-[90vh]   "
     >
-      <div className="bg-[#F4E721]/30 z-[2] h-[100vh] w-[100%]">
+      <div className="bg-[#F4E721]/30 p-4 z-[2] h-[90vh] w-[100%]">
         <h1
           className=" p-4 font-bold text-white"
           style={{
             fontWeight: "700",
-            fontSize: "14rem",
+            fontSize: "10rem",
           }}
         >
           LET&apos;S GO
         </h1>
         <h1
           className="p-4 font-bold text-white"
-          style={{ fontWeight: "700", fontSize: "10rem" }}
+          style={{ fontWeight: "700", fontSize: "8rem" }}
         >
           Seals
         </h1>

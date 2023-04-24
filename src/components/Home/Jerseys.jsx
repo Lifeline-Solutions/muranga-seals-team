@@ -71,7 +71,7 @@ const Jerseys = () => {
         <div className="fixed kulim-park bg-white shadow-xl h-[800px] my-auto w-[800px] inset-0 bg-opacity-95 z-10 flex flex-col items-center justify-center  mx-auto transition-all duration-500">
           <div className="flex justify-end w-full p-4">
             <button
-              className="bg-[#F4E721] text-white px-4 py-2 rounded-lg"
+              className="bg-[#F4E721]  px-4 py-2 rounded-lg"
               onClick={() => setShowModal(false)}
             >
               X
@@ -144,7 +144,7 @@ const Jerseys = () => {
 
             <button
               type="submit"
-              className="w-full text-white bg-[#F4E721] border border-transparent rounded-lg py-2.5 px-4  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-600"
+              className="w-full  bg-[#F4E721] border border-transparent rounded-lg py-2.5 px-4  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-600"
             >
               Buy Now
             </button>
@@ -153,7 +153,7 @@ const Jerseys = () => {
       )}
       <h1 className="text-center font-bold uppercase text-5xl">Buy Jersey</h1>
 
-      <div className="flex  justify-center gap-24 mt-12 w-[80%] mx-auto">
+      <div className="flex  justify-around gap-12 mt-12 w-[90%] mx-auto">
         <div
           className="relative cursor-pointer hover:scale-105 transition-all duration-500  w-[300px] h-[300px] border-dashed border-dashed border-2 border-gray-500 flex"
           onClick={() => setShowModal(true)}
