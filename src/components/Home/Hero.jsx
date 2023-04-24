@@ -1,10 +1,10 @@
 import React from "react";
-import teamhero from "../images/team-hero.jpeg";
+import banner from "../images/banner-image-01.png"
 const Hero = () => {
   return (
     <div
       style={{
-        backgroundImage: `url(${teamhero})`,
+        backgroundImage: `url(${banner})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
