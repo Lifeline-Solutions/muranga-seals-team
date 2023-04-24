@@ -84,7 +84,7 @@ const Membership = () => {
           </p>
         </div>
 
-        <button className="bg-[#F4E721] w-[50%] mx-auto text-white text-3xl p-4 mt-12 font-bold">
+        <button className="bg-[#F4E721] w-[50%] mx-auto hover:scale-105 duration-500 transition-all text-3xl p-4 mt-12 font-bold">
           Register
         </button>
       </div>

@@ -155,25 +155,31 @@ const Jerseys = () => {
 
       <div className="flex  justify-center gap-24 mt-12 w-[80%] mx-auto">
         <div
-          className="relative hover:scale-105 transition-all duration-500 p-4 w-[400px] cursor-pointer h-[300px] border-dashed border-dashed border-2 border-gray-500 flex"
+          className="relative cursor-pointer hover:scale-105 transition-all duration-500  w-[300px] h-[300px] border-dashed border-dashed border-2 border-gray-500 flex"
           onClick={() => setShowModal(true)}
         >
           <img
             src={MsealAway}
             alt="jersey"
-            className="w-[250px] absolute top-12 right-56 pl-6 pb-40"
+            className=" h-[300px] absolute top-4 right-48"
           />
-          <div className="flex flex-col font-semibold gap-4 ml-40">
-            <p>Authentic Away Shirt</p>
-            <p>Team Jersey</p>
-            <p>Short sleeve</p>
-            <p>10% discount off</p>
-            <p>On membership</p>
-            <p>Medium</p>
+
+          <div className="flex flex-col  justify-between   items-end gap-4 ">
+            <div className="flex flex-col gap-2 ml-40">
+              <p className="font-bold text-xl">Authentic Away </p>
+              <p>Team Jersey</p>
+              <p className="font-bold text-xl">1500 KES</p>
+              <p>Short Sleeve</p>
+
+              <p>Medium</p>
+            </div>
+            <button className="bg-[#F4E721] w-[65%] text-black font-bold py-2 px-4 rounded">
+              Buy Now
+            </button>
           </div>
         </div>
         <div
-          className="relative cursor-pointer hover:scale-105 transition-all duration-500  p-4 w-[500px] h-[500px] border-dashed border-dashed border-2 border-gray-500 flex"
+          className="relative cursor-pointer hover:scale-105 transition-all duration-500  p-4 w-[400px] h-[400px] border-dashed border-dashed border-2 border-gray-500 flex"
           onClick={() => setShowModal(true)}
         >
           <img
@@ -181,31 +187,42 @@ const Jerseys = () => {
             alt="jersey"
             className="w-[300px] absolute top-0 right-56 w-96 h-96"
           />
-          <div className="flex font-semibold flex-col gap-4 ml-64">
-            <p>Authentic Away Shirt</p>
-            <p>Team Jersey</p>
-            <p>Short sleeve</p>
-            <p>10% discount off</p>
-            <p>On membership</p>
-            <p>Medium</p>
+          <div className="flex flex-col  justify-between   items-end gap-4 ">
+            <div className="flex flex-col gap-2 ml-56">
+              <p className="font-bold text-xl">Authentic Away </p>
+              <p>Team Jersey</p>
+              <p className="font-bold text-xl">1500 KES</p>
+              <p>Short Sleeve</p>
+
+              <p>Medium</p>
+            </div>
+            <button className="bg-[#F4E721] w-[50%] text-black font-bold py-2 px-4 rounded">
+              Buy Now
+            </button>
           </div>
         </div>
         <div
-          className="relative cursor-pointer hover:scale-105 transition-all duration-500 p-4 w-[400px] h-[300px] border-dashed border-dashed border-2 border-gray-500 flex"
+          className="relative cursor-pointer hover:scale-105 transition-all duration-500  w-[300px] h-[300px] border-dashed border-dashed border-2 border-gray-500 flex"
           onClick={() => setShowModal(true)}
         >
           <img
             src={MsealAway}
             alt="jersey"
-            className=" h-[400px] absolute top-12 right-56"
+            className=" h-[300px] absolute top-4 right-48"
           />
-          <div className="flex font-semibold flex-col gap-4 ml-40">
-            <p>Authentic Away Shirt</p>
-            <p>Team Jersey</p>
-            <p>Short sleeve</p>
-            <p>10% discount off</p>
-            <p>On membership</p>
-            <p>Medium</p>
+
+          <div className="flex flex-col  justify-between   items-end gap-4 ">
+            <div className="flex flex-col gap-2 ml-40">
+              <p className="font-bold text-xl">Alternative Shirt</p>
+              <p>Team Jersey</p>
+              <p className="font-bold text-xl">1500 KES</p>
+              <p>Short Sleeve</p>
+
+              <p>Medium</p>
+            </div>
+            <button className="bg-[#F4E721] w-[65%] text-black font-bold py-2 px-4 rounded">
+              Buy Now
+            </button>
           </div>
         </div>
       </div>
