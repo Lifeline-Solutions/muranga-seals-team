@@ -1,7 +1,6 @@
 import React, { useState, useRef } from "react";
-import jersey1 from "../images/jersey1.png";
-import jersey2 from "../images/jersey2.png";
-import jersey3 from "../images/jersey3.png";
+import MsealAway from "../images/Mseal-Away-kit.png";
+import MsealHome from "../images/Mseal-Home-kit.png";
 import { ToastContainer, toast } from "react-toastify";
 import emailjs from "@emailjs/browser";
 import "react-toastify/dist/ReactToastify.css";
@@ -72,7 +71,7 @@ const Jerseys = () => {
         <div className="fixed kulim-park bg-white shadow-xl h-[800px] my-auto w-[800px] inset-0 bg-opacity-95 z-10 flex flex-col items-center justify-center  mx-auto transition-all duration-500">
           <div className="flex justify-end w-full p-4">
             <button
-              className="bg-[#E06F24] text-white px-4 py-2 rounded-lg"
+              className="bg-[#F4E721] text-white px-4 py-2 rounded-lg"
               onClick={() => setShowModal(false)}
             >
               X
@@ -83,7 +82,7 @@ const Jerseys = () => {
             className="space-y-4 md:space-y-6"
             onSubmit={handleSubmit}
           >
-            <img src={jersey1} alt="jersey" className="w-96 h-96 mx-auto" />
+            <img src={MsealHome} alt="jersey" className="w-96 h-96 mx-auto" />
             <div className="flex gap-4 my-4">
               <div className="flex flex-col gap-4">
                 <label htmlFor="name">Name</label>
@@ -128,7 +127,7 @@ const Jerseys = () => {
                 </select>
               </div>
               <div className="flex flex-col gap-4">
-                <label htmlFor="name">Select Kir</label>
+                <label htmlFor="name">SELECT KIT</label>
                 <select
                   className="w-[250px] border border-gray-300 rounded-lg py-2.5 px-4 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-600"
                   onChange={(e) => setColor(e.target.value)}
@@ -145,7 +144,7 @@ const Jerseys = () => {
 
             <button
               type="submit"
-              className="w-full text-white bg-[#E06F24] border border-transparent rounded-lg py-2.5 px-4  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-600"
+              className="w-full text-white bg-[#F4E721] border border-transparent rounded-lg py-2.5 px-4  focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-600"
             >
               Buy Now
             </button>
@@ -154,15 +153,15 @@ const Jerseys = () => {
       )}
       <h1 className="text-center font-bold uppercase text-5xl">Buy Jersey</h1>
 
-      <div className="flex  justify-center gap-24 mt-12 w-[90%] mx-auto">
+      <div className="flex  justify-center gap-24 mt-12 w-[80%] mx-auto">
         <div
           className="relative hover:scale-105 transition-all duration-500 p-4 w-[400px] cursor-pointer h-[300px] border-dashed border-dashed border-2 border-gray-500 flex"
           onClick={() => setShowModal(true)}
         >
           <img
-            src={jersey2}
+            src={MsealAway}
             alt="jersey"
-            className="w-[250px] h-[250px] absolute top-12 right-56"
+            className="w-[250px] absolute top-12 right-56 pl-6 pb-40"
           />
           <div className="flex flex-col font-semibold gap-4 ml-40">
             <p>Authentic Away Shirt</p>
@@ -178,9 +177,9 @@ const Jerseys = () => {
           onClick={() => setShowModal(true)}
         >
           <img
-            src={jersey1}
+            src={MsealHome}
             alt="jersey"
-            className=" absolute top-0 right-56 w-96 h-96"
+            className="w-[300px] absolute top-0 right-56 w-96 h-96"
           />
           <div className="flex font-semibold flex-col gap-4 ml-64">
             <p>Authentic Away Shirt</p>
@@ -196,9 +195,9 @@ const Jerseys = () => {
           onClick={() => setShowModal(true)}
         >
           <img
-            src={jersey3}
+            src={MsealAway}
             alt="jersey"
-            className="w-[250px] h-[250px] absolute top-12 right-56"
+            className=" h-[400px] absolute top-12 right-56"
           />
           <div className="flex font-semibold flex-col gap-4 ml-40">
             <p>Authentic Away Shirt</p>
@@ -212,7 +211,7 @@ const Jerseys = () => {
       </div>
 
       <div className="flex mt-12">
-        <p className="w-1/2  p-4 text-end  bg-[#E06F24] text-white pr-16 text-2xl  ">
+        <p className="w-1/2  p-4 text-end  bg-[#F4E721] text-white pr-16 text-2xl  ">
           Breaking News
         </p>
         <p className="w-1/2 bg-gray-200 p-4 text-start  pl-16 text-2xl ">

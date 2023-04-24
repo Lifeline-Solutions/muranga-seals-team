@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "../NavBar/NavBar.jsx";
 import teamphoto from "../images/team-photo.jpeg";
 const TheClub = () => {
   return (

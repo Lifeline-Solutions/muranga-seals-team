@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "../NavBar/NavBar.jsx";
 import logo from "../images/logo.png";
 import teamphoto from "../images/team-photo.jpeg";
 const Ticket = () => {
@@ -117,7 +116,7 @@ const Ticket = () => {
 
       <div className="flex justify-between bg-gray-100 mx-auto w-[90%] p-4">
         <div className="flex flex-col gap-4 text-3xl">
-          <h1 className="text-5xl font-bold">MURANG'A SEALS MEMBERSHIP</h1>
+          <h1 className="text-5xl font-bold">MURANG&apos;A SEALS MEMBERSHIP</h1>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
